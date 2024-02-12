@@ -1,0 +1,186 @@
+
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shopping Website</title>
+    <style>
+        /* CSS code for styling the website */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+
+        .logo {
+            width: 100px;
+        }
+
+        .menu {
+            display: flex;
+            list-style: none;
+        }
+
+        .menu li {
+            margin: 0 10px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .menu a:hover {
+            color: #555;
+        }
+
+        .search {
+            display: flex;
+            width: 300px;
+        }
+
+        .search input {
+            width: 80%;
+            height: 30px;
+            border: 1px solid #ccc;
+            outline: none;
+            padding: 5px;
+        }
+
+        .search button {
+            width: 20%;
+            height: 30px;
+            border: none;
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .banner {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .product {
+            width: 300px;
+            height: 400px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 5px #ddd;
+        }
+
+        .product img {
+            width: 100%;
+            height: 250px;
+            object-fit: contain;
+        }
+
+        .product h3 {
+            text-align: center;
+            margin: 10px;
+        }
+
+        .product p {
+            text-align: center;
+            margin: 10px;
+            color: #555;
+        }
+
+        .product button {
+            display: block;
+            width: 80%;
+            height: 40px;
+            margin: 10px auto;
+            border: none;
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .product button:hover {
+            background-color: #555;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        .footer p {
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- HTML code for creating the website structure and content -->
+    <div class="navbar">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/011/401/535/small/online-shopping-trolley-click-and-collect-order-logo-design-template-vector.jpg" alt="Logo" class="logo">
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Accessories</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search products">
+            <button>Search</button>
+        </div>
+    </div>
+    <img src="banner.jpg" alt="Banner" class="banner">
+    <div class="products">
+        <div class="product">
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>$19.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <div style="background-color: aqua;">
+            <img src="https://assets.ajio.com/medias/sys_master/root/20230516/JVIk/6463b536d55b7d0c63ba25da/-473Wx593H-4938378250-multi-MODEL.jpg" alt="Product 2">
+            <h3>Product 2</h3>
+            <p>1110</p>
+            <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="https://m.media-amazon.com/images/I/51AADcwNmSL.jpg" alt="Product 3">
+            <h3>Product 3</h3>
+            <p>$39.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="" alt="Product 4">
+            <h3>Product 4</h3>
+            <p>199.0</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    <div class="footer">
+        <p>© 2024 My Shopping Website. All rights reserved.</p>
+        <p>Follow us on <a href="#">Facebook</a>, <a href="#">Twitter</a>, and <a href="#">Instagram</a>.</p>
+    </div>
+   
